@@ -1,0 +1,29 @@
+/*Color Palette
+#F9E7E7 - LIGHT PINK
+#DED6D6 - LIGHT GRAY
+#D2CBCB - MEDIUM GRAY
+#ADA0A6 - DARK GRAY
+#7D938A - GREEN
+---------------------------*/
+
+
+/*Global Styles
+----------------*/
+nav {
+  text-align: center;
+  background: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  line-height: 20px;
+  padding-bottom: 20px;
+}
+ nav a {
+   display: inline-block;
+   padding: 15px 20px;
+   text-decoration: none;
+   text-transform: lowercase;
+   font-weight: 700;
+   color: #7D938A;
+   font-family: sans-serif, monospace;
+ }
