@@ -86,4 +86,13 @@ nav {
 }
 footer {
     background-color: white;
+    text-align: center;
+
+}
+.fa {
+    color: #ADA0A6;
+}
+.footer-copywrite {
+    font-size: 12px;
+    color: #ADA0A6;
 }
