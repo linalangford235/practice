@@ -1,30 +1,85 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 <head>
-  <script src="https://use.fontawesome.com/b0f5612379.js"></script>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
   <title>Lina Fowler | Designs</title>
-   <link rel="stylesheet" href="styles.css">
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <!-- Intro -->
+  <!-- Nav -->
   <header id="about">
-    <nav>
+    <nav class="navbar navbar-fixed-top">
+      <div class="container-fluid">
       <a href="#about">Home</a>
       <a href="#work">Work</a>
-      <a href="#"><img href="img/logo.png" alt="logo"></a>
+      <a href="#"><img src="/img/logo.png" alt="logo" height="67" width="70"/></a>
       <a href="#contact">Contact</a>
+      <a href="#services">Services</a>
+    </div>
     </nav>
   </header>
-<section>
-  <div class="row">
-    <div class="containter">
-      <div class="col-lg-9 col-md-9 col-sm-9">
 
-      </div>
-    </div>
-  </div>
-</section>
+<!--background-->
+    <section>
+        <div class="background-image">
+            <img class="img-rounded img-responsive" src="/img/background-picture.png" alt="background" height="800" width="1200">
+        </div>
+        <div class="containter">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="heading-topics">About</h1>
+                    <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id ultrices sem. Sed pharetra arcu eget rhoncus aliquet. Suspendisse sapien justo, ultricies a ornare id, vulputate sed enim. Duis aliquam eros at ligula luctus, vitae sodales augue ultricies. Curabitur nec nunc et nulla vulputate molestie id at urna. Suspendisse potenti. Quisque non varius risus. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <h1 class="heading-topics">Services</h1>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                 <h3 class="service-headings">Web Design</h3>
+                 <p class="services-text">Duis aliquam eros at ligula luctus, vitae sodales augue ultricies. Curabitur nec nunc et nulla vulputate molestie id at urna. Suspendisse potenti. Quisque non varius risus.</p>
+                 <h3 class="service-headings">Web Development</h3>
+                 <p class="services-text">Duis aliquam eros at ligula luctus, vitae sodales augue ultricies. Curabitur nec nunc et nulla vulputate molestie id at urna. Suspendisse potenti. Quisque non varius risus.</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <h3 class="service-headings">Web Design</h3>
+                    <p class="services-text">Duis aliquam eros at ligula luctus, vitae sodales augue ultricies. Curabitur nec nunc et nulla vulputate molestie id at urna. Suspendisse potenti. Quisque non varius risus.</p>
+                    <h3 class="service-headings">Web Development</h3>
+                    <p class="services-text">Duis aliquam eros at ligula luctus, vitae sodales augue ultricies. Curabitur nec nunc et nulla vulputate molestie id at urna. Suspendisse potenti. Quisque non varius risus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="work">
+        <div class="container">
+            <div class="row">
+                <h1 class="heading-topics">Work</h1>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <img class="img-responsive img-rounded"src="/img/web-pic.png" alt="web-design" />
+                    <h3 class="work-headings">Web Design</h3>
+               </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <img class="img-responsive img-rounded" src="/img/photography-pic.png" alt="photography" />
+                    <h3 class="work-headings">Web Design</h3>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <img class="img-responsive img-rounded" src="/img/fa-pic.png" alt="fine-art" />
+                    <h3 class="work-headings">Web Design</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!--jQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/b0f5612379.js"></script>
 </body>
 </html>
