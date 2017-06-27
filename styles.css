@@ -80,7 +80,7 @@ nav {
     padding-bottom: 30px;
 }
 #insta {
-    background-color: #DED6D6;
+    background-color: #ede4e4;
     margin-bottom: 30px;
     padding-bottom: 30px;
 }
@@ -95,4 +95,5 @@ footer {
 .footer-copywrite {
     font-size: 12px;
     color: #ADA0A6;
+    font-family: ebrima, arial, helvetica, sans-serif;
 }
