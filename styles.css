@@ -9,9 +9,7 @@
 
 /*Global Styles
 ----------------*/
-#about {
-  background-color: #DED6D6;
-}
+
 
 nav {
   text-align: center;
@@ -79,4 +77,13 @@ nav {
     color: #7d938a;
     font-family: ebrima, arial, helvetica, sans-serif;
     margin: 5%;
+    padding-bottom: 30px;
+}
+#insta {
+    background-color: #DED6D6;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+footer {
+    background-color: white;
 }
