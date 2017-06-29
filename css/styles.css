@@ -19,6 +19,7 @@ nav {
   width: 100%;
   line-height: 20px;
   padding-bottom: 20px;
+
 }
  nav a {
    display: inline-block;
@@ -96,4 +97,13 @@ footer {
     font-size: 12px;
     color: #ADA0A6;
     font-family: ebrima, arial, helvetica, sans-serif;
+}
+#insta > img {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+/*Web Design Page*/
+.website-designs {
+    background-color: #DED6D6;
 }
