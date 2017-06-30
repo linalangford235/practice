@@ -6,7 +6,6 @@
 <head runat="server">
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
-        
     </asp:ContentPlaceHolder>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,13 +13,28 @@
 
     <link href="~/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="~/css/styles.css" />
+
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/b0f5612379.js"></script>
 </head>
+
 <body>
     <form id="form1" runat="server">
     <div>
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
+    <footer>
+        <div class="content-wrap">
+            <a href="mailto:lina.m.fowler@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i><span class="sr-only">E-mail</span></a>
+            <a href="https://www.linkedin.com/in/lina-fowler-2a62b1139/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i><span class="sr-only">Linkedin</span></a>
+            <a href="https://www.instagram.com/art.by.lina/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i><span class="sr-only">Instagram</span></a>
+            <a href="http://localhost:63662/" target="_blank"><i class="fa fa-home" aria-hidden="true"></i><span class="sr-only">Home</span></a>
+            <h4 class="footer-copywrite">&copy; 2017 by Lina Fowler</h4>
+        </div>
+    </footer>
     </div>
     </form>
 </body>
