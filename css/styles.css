@@ -1,37 +1,37 @@
 /*Color Palette
-#F9E7E7 - LIGHT PINK
-#DED6D6 - LIGHT GRAY
-#D2CBCB - MEDIUM GRAY
-#ADA0A6 - DARK GRAY
-#7D938A - GREEN
+#6d6c6c - gray
+#4c9f70 - green
+#ff9b7c - orange
+#88a09e - blue
+#b88c9e - purple
+#f7f6f4 - pearl white
 ---------------------------*/
 
 
 /*Navigation
 ----------------*/
 nav {
-  text-align: center;
-  background: white;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  line-height: 20px;
-  padding-bottom: 20px;
-
+    text-align: center;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    line-height: 20px;
+    padding-bottom: 20px;
 }
- nav a {
-   display: inline-block;
-   padding: 15px 20px;
-   text-decoration: none;
-   text-transform: lowercase;
-   font-weight: 700;
-   color: #7D938A;
-   font-family: sans-serif, monospace;
- }
-nav a:hover {
-     color: #DED6D6;
-     text-decoration: none;
- }
+    nav a {
+        display: inline-block;
+        padding: 15px 20px;
+        text-decoration: none;
+        text-transform: lowercase;
+        font-weight: 700;
+        color: #6d6c6c;
+        font-family: sans-serif, monospace;
+    }
+        nav a:hover {
+            color: #ff9b7c;
+            text-decoration: none;
+        }
 /*Mobile Nav*/
 .mobile-nav {
     font-size: 50px;
@@ -45,53 +45,57 @@ nav a:hover {
 .heading-topics {
     text-align: center;
     font-size: 25px;
-    color: #ADA0A6;
     font-family: monotype corsiva, sanchez, serif;
+    color: #6d6c6c;
     margin: 5%;
-    
 }
 .about-text {
     text-align: center;
     font-size: 20px;
-    color: #ADA0A6;
+    color: #9C9990;
     font-family: ebrima, arial, helvetica, sans-serif;
     margin: 5%;
-    padding-left: 100px;
-    padding-right: 100px;
-    
+   
 }
 .service-headings {
     text-align: left;
-    font-size: 15px;
-    color: #7d938a;
+    font-size: 20px;
+    color: #6d6c6c;
     font-family: ebrima, arial, helvetica, sans-serif;
     margin: 5%;
-    
 }
 .services-text {
-     text-align: left;
-    font-size: 12px;
-    color: #4a4a4a;
+    text-align: left;
+    font-size: 15px;
+    color: #f7f6f4;
     font-family: ebrima, arial, helvetica, sans-serif;
     margin: 5%;
     padding-bottom: 30px;
 }
+#services h1 {
+    color: #f7f6f4;
+}
 
 #services {
-    background-color: #F9E7E7;
+    background-color: #ff9b7c;
     margin: 0;
 }
 .work-headings {
     text-align: center;
     font-size: 15px;
-    color: #7d938a;
+    color: #6d6c6c;
     font-family: ebrima, arial, helvetica, sans-serif;
     margin: 5%;
     padding-bottom: 30px;
 }
+#work {
+    background-color: #f7f6f4;
+    margin: 0;
+}
+
 /*Insta section*/
 #insta {
-    background-color: #ede4e4;
+    background-color: #f7f6f4;
     margin-bottom: 30px;
     padding-bottom: 30px;
 }
@@ -99,13 +103,14 @@ nav a:hover {
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
-
-/*Footer*/
-footer {
-    background-color: white;
-    text-align: center;
-
-}
+#insta .col-lg-3 {
+    padding: 0;
+    }
+    /*Footer*/
+    footer {
+        background-color: white;
+        text-align: center;
+    }
 .fa:hover {
     color: #F9E7E7;
 }

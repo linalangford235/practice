@@ -8,19 +8,19 @@
       <div class="container-fluid">
       <a href="#about">Home</a>
       <a href="#work">Work</a>
-      <a href="#"><img src="/img/logo.png" alt="logo" height="67" width="70"/></a>
+      <a href="#"><img src="/img/logo3.png" alt="logo" height="67" width="70"/></a>
       <a href="#contact">Contact</a>
       <a href="#services">Services</a>
     </div>
     </nav>
 
   <%--  Mobile--%>
-    <div class="container2 mobile header">
+   <%-- <div class="container2 mobile header">
         <div class="row">
             <div class="col-lg-12pad0">
                 <div class="mobile-logo">
                     <a class="mobile-version">
-                        <img src="../img/logo.png" alt="Logo" height="67" width="70" />
+                        <img src="../img/logo2.png" alt="Logo" height="67" width="70" />
                     </a>
                 </div>
             </div>
@@ -35,5 +35,5 @@
                 <a href="#services">Services</a>
             </div>
         </div>
-    </div>
+    </div>--%>
   </header>
