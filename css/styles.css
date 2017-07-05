@@ -44,7 +44,7 @@ nav {
 /*About & Work Sections*/
 .heading-topics {
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     font-family: monotype corsiva, sanchez, serif;
     color: #6d6c6c;
     margin: 5%;
@@ -60,24 +60,22 @@ nav {
 .service-headings {
     text-align: left;
     font-size: 20px;
-    color: #6d6c6c;
+    color: #ff9b7c;
     font-family: ebrima, arial, helvetica, sans-serif;
     margin: 5%;
 }
 .services-text {
     text-align: left;
-    font-size: 15px;
-    color: #f7f6f4;
+    font-size: 18px;
+    color: #6d6c6c;
     font-family: ebrima, arial, helvetica, sans-serif;
     margin: 5%;
     padding-bottom: 30px;
 }
-#services h1 {
-    color: #f7f6f4;
-}
+
 
 #services {
-    background-color: #ff9b7c;
+    background-color: white;
     margin: 0;
 }
 .work-headings {
@@ -89,13 +87,13 @@ nav {
     padding-bottom: 30px;
 }
 #work {
-    background-color: #f7f6f4;
+    background-color: #ff9b7c;
     margin: 0;
 }
 
 /*Insta section*/
 #insta {
-    background-color: #f7f6f4;
+    background-color: #88a09e;
     margin-bottom: 30px;
     padding-bottom: 30px;
 }
@@ -104,7 +102,7 @@ nav {
     padding-right: 0px !important;
 }
 #insta .col-lg-3 {
-    padding: 0;
+    margin: 0;
     }
     /*Footer*/
     footer {

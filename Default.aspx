@@ -30,19 +30,19 @@
                 <h1 class="heading-topics">Work</h1>
                 <div class="col-lg-4 col-md-4 col-sm-4">
                     <a href="http://localhost:63662/webdesign.aspx" target="_blank" alt="web-designs">
-                        <img class="img-responsive img-rounded" src="/img/web-pic.png" alt="web-design" />
+                        <img class="img-responsive img-circle" src="/img/web-pic.png" alt="web-design" />
                     </a>
                     <a href="http://localhost:63662/webdesign.aspx"><h3 class="work-headings">Web Design</h3></a>
                </div>
                 <div class="col-lg-4 col-md-4 col-sm-4">
                     <a href="#" target="_blank" alt="photos">
-                        <img class="img-responsive img-rounded" src="/img/photography-pic.png" alt="photography" />
+                        <img class="img-responsive img-circle" src="/img/photography-pic.png" alt="photography" />
                     </a>
                     <a href="#"><h3 class="work-headings">Photography</h3></a>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4">
                     <a href="#" target="_blank" alt="fine-art">
-                    <img class="img-responsive img-rounded" src="/img/fa-pic.png" alt="fine-art" />
+                    <img class="img-responsive img-circle" src="/img/fa-pic.png" alt="fine-art" />
                         </a>
                     <a href="#"><h3 class="work-headings">Fine Art</h3></a>
                 </div>
@@ -74,22 +74,22 @@
                  <h1 class="heading-topics">Instagram</h1>
                  <div class="col-lg-3 col-md-3 col-sm-3">
                      <a href="https://www.instagram.com/lina.fowler.design/" target="_blank">
-                         <img class="img-responsive img-rounded" src="/img/insta-cinque.png" alt="instagram-images" />
+                         <img class="img-responsive img-circle" src="/img/insta-cinque.png" alt="instagram-images" />
                      </a>
                  </div>
                  <div class="col-lg-3 col-md-3 col-sm-3">
                      <a href="https://www.instagram.com/lina.fowler.design/" target="_blank">
-                         <img class="img-responsive img-rounded" src="/img/insta-florence.png" alt="instagram-images" />
+                         <img class="img-responsive img-circle" src="/img/insta-florence.png" alt="instagram-images" />
                      </a>
                  </div>
                  <div class="col-lg-3 col-md-3 col-sm-3">
                      <a href="https://www.instagram.com/lina.fowler.design/" target="_blank">
-                         <img class="img-responsive img-rounded" src="/img/insta-paris.png" alt="instagram-images" />
+                         <img class="img-responsive img-circle" src="/img/insta-paris.png" alt="instagram-images" />
                      </a>
                  </div>
                  <div class="col-lg-3 col-md-3 col-sm-3">
                      <a href="https://www.instagram.com/lina.fowler.design/" target="_blank">
-                         <img class="img-responsive img-rounded" src="/img/insta-rome.png" alt="instagram-images" />
+                         <img class="img-responsive img-circle" src="/img/insta-rome.png" alt="instagram-images" />
                      </a>
                  </div>
              </div>
