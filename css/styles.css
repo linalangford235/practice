@@ -160,10 +160,21 @@ margin-top: 40px;
 #contact .heading-topics {
     color: #f1efef;
 }
-#contact .lines {
-    color: #f1efef;
+.white-lines {
+    text-align: center;
+    width: 100px;
+    border-top: 1px solid #f1efef;
+    margin-top: 15px;
 }
-
+#contact-form {
+    background-color: #a4a4a4;
+}
+#contact-form input [type="text"]
+#contact-form input [type="email"]
+#contact-form textarea {
+    color: deeppink;
+  
+}
 /*Web Design Page*/
 .website-exp {
     background-color: #DED6D6;

@@ -88,16 +88,40 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="heading-topics">Contact</h1>
-                    <hr class="lines" />
+                    <hr class="white-lines" />
                 </div>
             </div>
         </div>
     </section>
-     
-    
-     
-
-
+     <section id="contact-form">
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-6">
+                     <div>
+                         <label>
+                             <span>Name: (required)</span>
+                             <input placeholder="Please enter your name" type="text" tabindex="1" required="" autofocus="" />
+                         </label>
+                     </div>
+                     <div>
+                         <label>
+                             <span>E-mail: (required)</span>
+                             <input placeholder="Please enter your e-mail address" type="email" tabindex="2" required="" />
+                         </label>
+                     </div>
+                     <div>
+                         <label>
+                             <span>Message: (required)</span>
+                             <textarea placeholder="Type your message here" tabindex="3" required="" autofocus=""></textarea>
+                         </label>
+                     </div>
+                     <div>
+                         <button name="submit" type="submit" id="contact-submit">Send</button>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
 </body>
 </asp:Content>
 
