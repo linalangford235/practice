@@ -6,23 +6,15 @@
 <header id="about">
     <nav class="navbar navbar-fixed-top">
       <div class="container-fluid">
-<<<<<<< HEAD
       <a href="#about">home</a>
       <a href="#work">work</a>
-      <a href="#services">services</a>
-      <a href="#contact">contact</a>
-=======
-      <a href="#about">Home</a>
-      <a href="#work">Work</a>
-      <a href="#"><img src="/img/logo3.png" alt="logo" height="67" width="70"/></a>
-      <a href="#contact">Contact</a>
-      <a href="#services">Services</a>
->>>>>>> f636340ba311997280d6598e2499d66b77359665
+      <a href="/linaResume.pdf" target="_blank">resume</a>
+      <a href="#contact-form">contact</a>
     </div>
     </nav>
 
   <%--  Mobile--%>
-<<<<<<< HEAD
+
     <%--<div class="container2 mobile header">
 =======
    <%-- <div class="container2 mobile header">
