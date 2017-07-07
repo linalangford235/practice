@@ -9,9 +9,10 @@
  
 <!--background-->
  <body>
-     <section>
+     <section id="background-img">
          <div class="background-image">
-             <img class="img-responsive" src="/img/background-color2.png" alt="background" />
+             <img class="img-responsive desktop-img" src="/img/background-color2.png" alt="background" />
+             <img class="img-responsive mobile-img" src="/img/background-mobile.png" alt="mobile background" />
          </div>
      </section>
      <section id="about">
@@ -28,13 +29,13 @@
      <section class="diamonds">
          <div class="container">
              <div class="row">
-                 <div class="col-lg-3 col-md-4">
+                 <div class="col-lg-3 col-md-3 col-sm-2">
                      <img src="/img/responsive-design.png" alt="responsive-design" height="363" width="300" />
                  </div>
-                 <div class="col-lg-3 col-md-4">
-                     <img src="/img/ui-deisgn.png" alt="responsive-design" height="363" width="300" />
+                 <div class="col-lg-3 col-md-3 col-sm-2">
+                     <img src="/img/ui.png" alt="responsive-design" height="363" width="300" />
                  </div>
-                 <div class="col-lg-3 col-md-4">
+                 <div class="col-lg-3 col-md-3 col-sm-2">
                      <img src="/img/minimal.png" alt="responsive-design" height="363" width="300" />
                  </div>
              </div>
@@ -61,7 +62,7 @@
                          <img class="img-responsive img-rounded" src="/img/web-pic.png" alt="web-design" />
                      </a>
                      <a href="http://localhost:63662/webdesign.aspx">
-                         <h3 class="work-headings">Web Design</h3>
+                         <h3 class="work-headings">Websites</h3>
                      </a>
                  </div>
                  <div class="col-lg-3 col-md-3 col-sm-3">
@@ -77,7 +78,7 @@
                          <img class="img-responsive img-rounded" src="/img/fa-pic.png" alt="fine-art" />
                      </a>
                      <a href="#">
-                         <h3 class="work-headings">Fine Art</h3>
+                         <h3 class="work-headings">Graphic Art</h3>
                      </a>
                  </div>
              </div>
@@ -100,7 +101,7 @@
                      <div>
                          <label>
                              <span>Name: (required)</span>
-                             <input placeholder="Enter your name" type="text" tabindex="1" required="" autofocus="" />
+                             <input placeholder="Enter your name" type="text" tabindex="1" required="" />
                          </label>
                      </div>
                      <div>
@@ -112,7 +113,7 @@
                      <div>
                          <label>
                              <span>Message: (required)</span>
-                             <textarea placeholder="Type your message here" tabindex="3" required="" autofocus=""></textarea>
+                             <textarea placeholder="Type your message here" tabindex="3" required=""></textarea>
                          </label>
                      </div>
                      <div>
@@ -127,7 +128,7 @@
                          <a href="https://www.linkedin.com/in/lina-fowler-2a62b1139/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i><span class="sr-only">Linkedin</span></a>
                          <a href="https://www.instagram.com/lina.fowler.design/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i><span class="sr-only">Instagram</span></a>
                          <a href="http://localhost:63662/" target="_blank"><i class="fa fa-home" aria-hidden="true"></i><span class="sr-only">Home</span></a>
-                         <h4 class="footer-copywrite">&copy; 2017 by Lina Fowler</h4>
+                         <p class="footer-copywrite">&copy; 2017 by Lina Fowler</p>
                      </div>
                  </div>
              </div>
