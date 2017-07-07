@@ -101,21 +101,52 @@
                      <div>
                          <label>
                              <span>Name: (required)</span>
-                             <input placeholder="Enter your name" type="text" tabindex="1" required="" />
+                             <asp:RequiredFieldValidator ID="RequiredFieldValidator11" runat="server" ErrorMessage="*"
+                                 ControlToValidate="YourName" ValidationGroup="save" /><br />
+                             <asp:TextBox ID="YourName" runat="server" /><br />
+                             <%--<input placeholder="Enter your name" type="text" tabindex="1" required="" />--%>
                          </label>
                      </div>
                      <div>
                          <label>
                              <span>E-mail: (required)</span>
-                             <input placeholder="Enter your e-mail address" type="email" tabindex="2" required="" />
+                             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="*"
+                                 ControlToValidate="YourEmail" ValidationGroup="save" /><br />
+                             <asp:TextBox ID="YourEmail" runat="server" />
+                             <asp:RegularExpressionValidator runat="server" ID="RegularExpressionValidator23"
+                                 SetFocusOnError="true" Text="Example: username@gmail.com" ControlToValidate="YourEmail"
+
+                                 ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" Display="Dynamic"
+
+                                 ValidationGroup="save" /><br />
+
+                             <%--<input placeholder="Enter your e-mail address" type="email" tabindex="2" required="" />--%>
+                         </label>
+                     </div>
+                     <div>
+                         <label>
+                             <span>Subject (required)</span>
+                             <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="*"
+
+                                 ControlToValidate="YourSubject" ValidationGroup="save" /><br />
+                             <asp:TextBox ID="YourSubject" runat="server" /><br />
+                             <%--<textarea placeholder="Type your message here" tabindex="3" required=""></textarea>--%>
                          </label>
                      </div>
                      <div>
                          <label>
                              <span>Message: (required)</span>
-                             <textarea placeholder="Type your message here" tabindex="3" required=""></textarea>
+                             <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="*"
+
+                                 ControlToValidate="Comments" ValidationGroup="save" /><br />
+                                 <asp:TextBox ID="Comments" runat="server"
+                                     TextMode="MultiLine" Rows="10" />
+                             <%--<textarea placeholder="Type your message here" tabindex="3" required=""></textarea>--%>
                          </label>
                      </div>
+                     <p>
+                         <asp:Label ID="DisplayMessage" runat="server" Visible="false" />
+                     </p>
                      <div>
                          <button name="submit" type="submit" id="contact-submit">Send</button>
                      </div>
