@@ -1,27 +1,7 @@
-﻿(function () {
-    var input = document.createElement('input');
-
-    var supports = {};
-    supports.required = 'required' in input;
-    supports.placeholder = 'placeholder' in input;
-
-
-    if (!supports.required) {
-
+﻿function validateForm() {
+    var x = document.forms["contact-form"]["fname"].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
     }
-
-    if (!supports.placeholder) {
-
-    }
-    if (!supports.autofocus) {
-        document.getElementById('contact-submit').focus();
-    }
-
-    //change text inside send button on submit
-    var send = document.getElementById('contact-submit');
-    if (send) {
-        send.onclick = function () {
-            this.innerHTML = '...Sending';
-        }
-    }
-})();
+}

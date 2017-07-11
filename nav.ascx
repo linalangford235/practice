@@ -6,10 +6,10 @@
 <header id="about">
     <nav class="navbar navbar-fixed-top">
       <div class="container-fluid">
-      <a href="#about">home</a>
-      <a href="#work">work</a>
-      <a href="#contact-form">contact</a>
-      <a href="/linaResume.pdf" target="_blank">resume</a>
+      <a href="#background-img">home</a>
+      <a href="#portfolio">portfolio</a>
+      <a href="#contact">contact</a>
+      <a href="/LinasResume.pdf" target="_blank">resume</a>
     </div>
     </nav>
 
