@@ -96,16 +96,7 @@
              </div>
          </div>
      </section>
-     <section id="contact">
-         <div class="container">
-             <div class="row">
-                 <div class="col-lg-12">
-                     <h1 class="heading-topics">Contact</h1>
-                     <hr class="white-lines" />
-                 </div>
-             </div>
-         </div>
-     </section>
+    
 </body>
 </asp:Content>
 

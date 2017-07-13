@@ -6,8 +6,8 @@
 <header id="about">
     <nav class="navbar navbar-fixed-top nav-down">
       <div class="container-fluid">
-      <a href="#background-img">home</a>
-      <a href="#portfolio">portfolio</a>
+      <a href="/Default.aspx">home</a>
+      <a href="/Default.aspx#portfolio">portfolio</a>
       <a href="#contact">contact</a>
       <a href="/LinasResume.pdf" target="_blank">resume</a>
     </div>
