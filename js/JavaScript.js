@@ -1,7 +1,6 @@
-﻿function validateForm() {
-    var x = document.forms["contact-form"]["fname"].value;
-    if (x == "") {
-        alert("Name must be filled out");
-        return false;
-    }
-}
+﻿$(function () {
+    $(document).scroll(function () {
+        var $nav = $(".navbar-fixed-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+});

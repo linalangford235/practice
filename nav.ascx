@@ -4,7 +4,7 @@
 
 <%--Navigation Bar--%>
 <header id="about">
-    <nav class="navbar navbar-fixed-top">
+    <nav class="navbar navbar-fixed-top nav-down">
       <div class="container-fluid">
       <a href="#background-img">home</a>
       <a href="#portfolio">portfolio</a>

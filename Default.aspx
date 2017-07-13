@@ -26,26 +26,34 @@
              </div>
          </div>
      </section>
-     <section class="diamonds">
+     <section class="icon-section">
          <div class="container">
              <div class="row">
-                 <div class="col-lg-2 col-md-3 col-sm-2">
+                 <div class="col-lg-4 col-md-4 col-sm-3">
                      <img class="circle-img" src="/img/circle-comp.png" alt="responsive-design" height="121" width="100" />
                      <h3 class="bubbles">Responsive Design</h3>
+                     <p class="bubble-para">Specializing in design that looks fluid on multiple platforms such as mobile and tablet versions. </p>
                  </div>
-                 <div class="col-lg-2 col-md-3 col-sm-2">
+                 <div class="col-lg-4 col-md-4 col-sm-3">
                      <img class="circle-img" src="/img/ui-circle.png" alt="responsive-design" height="121" width="100" />
-                     <h3 class="bubbles">Intuitive & creative user interface</h3>
+                     <h3 class="bubbles">Intuitive & creative UI</h3>
+                     <p class="bubble-para">Creating designs that engage the user and provide intuitive navigation throughout the site.</p>
                  </div>
-                 <div class="col-lg-2 col-md-3 col-sm-2">
+                 <div class="col-lg-4 col-md-4 col-sm-3">
                      <img class="circle-img" src="/img/gears-circle.png" alt="responsive-design" height="121" width="100" />
                      <h3 class="bubbles">Minimalistic</h3>
+                     <p class="bubble-para">Crisp clean design & development that does not distract viewers. </p>
                  </div>
              </div>
          </div>
      </section>
 
-     <hr class="thick-line"/>
+     <section class="tree-image">
+         <div class="col-lg-12 col-md-12">
+             <img class="img-responsive woods" src="/img/woods.png" alt="trees-in-the-woods" />
+             <img class="img-responsive woods-mobile" src="/img/woods-mobile.png" alt="trees-in-the-woods" />
+         </div>
+     </section>
 
      <section id="portfolio">
          <div class="container">
@@ -57,31 +65,32 @@
              </div>
          </div>
      </section>
+
      <section id="work">
          <div class="container">
              <div class="row">
-                 <div class="col-lg-3 col-md-3 col-sm-3">
+                 <div class="col-lg-4 col-md-4 col-sm-4">
                      <a href="http://localhost:63662/webdesign.aspx" target="_blank">
-                         <img class="img-responsive img-rounded" src="/img/web-pic.png" alt="web-design" />
+                         <img class="img-responsive img-rounded work-img" src="/img/web-pic.png" alt="web-design" />
                      </a>
                      <a href="http://localhost:63662/webdesign.aspx">
                          <h3 class="work-headings">Websites</h3>
                      </a>
                  </div>
-                 <div class="col-lg-3 col-md-3 col-sm-3">
+                 <div class="col-lg-4 col-md-4 col-sm-4">
                      <a href="#" target="_blank">
-                         <img class="img-responsive img-rounded" src="/img/photography-pic.png" alt="photography" />
+                         <img class="img-responsive img-rounded work-img" src="/img/photography-pic.png" alt="photography" />
                      </a>
                      <a href="#">
                          <h3 class="work-headings">Photography</h3>
                      </a>
                  </div>
-                 <div class="col-lg-3 col-md-3 col-sm-3">
+                 <div class="col-lg-4 col-md-4 col-sm-4">
                      <a href="#" target="_blank">
-                         <img class="img-responsive img-rounded" src="/img/fa-pic.png" alt="fine-art" />
+                         <img class="img-responsive img-rounded work-img" src="/img/fa-pic.png" alt="fine-art" />
                      </a>
                      <a href="#">
-                         <h3 class="work-headings">Graphic Art</h3>
+                     <h3 class="work-headings">Graphic Art</h3>
                      </a>
                  </div>
              </div>
