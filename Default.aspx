@@ -30,12 +30,12 @@
          <div class="container">
              <div class="row">
                  <div class="col-lg-4 col-md-4 col-sm-3">
-                     <img class="circle-img" src="/img/circle-comp.png" alt="responsive-design" height="121" width="100" />
+                     <img class="circle-img" src="/img/cell.png" alt="responsive-design" height="121" width="100" />
                      <h3 class="bubbles">Responsive Design</h3>
                      <p class="bubble-para">Specializing in design that looks fluid on multiple platforms such as mobile and tablet versions. </p>
                  </div>
                  <div class="col-lg-4 col-md-4 col-sm-3">
-                     <img class="circle-img" src="/img/ui-circle.png" alt="responsive-design" height="121" width="100" />
+                     <img class="circle-img" src="/img/user.png" alt="responsive-design" height="121" width="100" />
                      <h3 class="bubbles">Intuitive & creative UI</h3>
                      <p class="bubble-para">Creating designs that engage the user and provide intuitive navigation throughout the site.</p>
                  </div>
@@ -70,26 +70,26 @@
          <div class="container">
              <div class="row">
                  <div class="col-lg-4 col-md-4 col-sm-4">
-                     <a href="http://localhost:63662/webdesign.aspx" target="_blank">
-                         <img class="img-responsive img-rounded work-img" src="/img/web-pic.png" alt="web-design" />
+                     <a href="http://localhost:63662/webdesign.aspx" >
+                         <img class="img-responsive img-rounded work-img thumbnail" src="/img/web-pic-comp-color.png" alt="web-design" />
                      </a>
                      <a href="http://localhost:63662/webdesign.aspx">
                          <h3 class="work-headings">Websites</h3>
                      </a>
                  </div>
                  <div class="col-lg-4 col-md-4 col-sm-4">
-                     <a href="#" target="_blank">
-                         <img class="img-responsive img-rounded work-img" src="/img/photography-pic.png" alt="photography" />
+                     <a href="photography.aspx" >
+                         <img class="img-responsive img-rounded work-img thumbnail" src="/img/web-pic-color2.png" alt="photography" />
                      </a>
-                     <a href="#">
+                     <a href="photography.aspx">
                          <h3 class="work-headings">Photography</h3>
                      </a>
                  </div>
                  <div class="col-lg-4 col-md-4 col-sm-4">
-                     <a href="#" target="_blank">
-                         <img class="img-responsive img-rounded work-img" src="/img/fa-pic.png" alt="fine-art" />
+                     <a href="graphicart.aspx" >
+                         <img class="img-responsive img-rounded work-img thumbnail" src="/img/fa-pic-color.png" alt="fine-art" />
                      </a>
-                     <a href="#">
+                     <a href="graphicart.aspx">
                      <h3 class="work-headings">Graphic Art</h3>
                      </a>
                  </div>

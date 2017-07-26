@@ -11,13 +11,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="/css/bootstrap.css">
-    <link rel="stylesheet" href="/css/bootstrap-responsive.css">
-    <link rel="stylesheet" href="~/css/styles.css" />
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="/js/javascript.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="https://use.fontawesome.com/b0f5612379.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet"/>
+    <link href="css/lightbox.css" rel="stylesheet"/>
+    <link href="css/styles.css" rel="stylesheet" />
+    
 
 </head>
 
@@ -30,50 +27,70 @@
          <div class="container">
              <div class="row">
                  <div class="col-lg-12">
-                     <h1 class="heading-topics">Contact</h1>
+                     <h1 class="heading-topics">Contact me</h1>
                      <hr class="white-lines" />
+                     <p class="contact-paragraph">Get in touch with me regarding a new project</p>
                  </div>
              </div>
          </div>
-     </section>
-            <section id="contact-form">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6">
-                            <form method="get">
-                                <div class="field">
-                                    <label for="name">Name:</label>
-                                    <input type="text" name="name" placeholder="Full name" required="" />
-                                </div>
-                                <div class="field">
-                                    <label for="email">E-mail:</label>
-                                    <input type="email" name="email" placeholder="E-mail address" required="" />
-                                </div>
-                                <div class="field">
-                                    <label for="message">Message:</label>
-                                    <textarea name="message" placeholder="Type your message here" required=""></textarea>
-                                </div>
-                                <div id="contact-submit" class="field">
-                                    <button type="submit">Send</button>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6">
-                            <p class="contact-paragraph">To contact me about a new project please fill out the form.</p>
-                            <div class="content-wrap">
-                                <p class="follow-me">Follow me:</p>
-                                <a href="mailto:lina.m.fowler@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i><span class="sr-only">E-mail</span></a>
-                                <a href="https://www.linkedin.com/in/lina-fowler-2a62b1139/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i><span class="sr-only">Linkedin</span></a>
-                                <a href="https://www.instagram.com/lina.fowler.design/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i><span class="sr-only">Instagram</span></a>
-                                <a href="http://localhost:63662/" target="_blank"><i class="fa fa-home" aria-hidden="true"></i><span class="sr-only">Home</span></a>
-                                <p class="footer-copywrite">&copy; 2017 by Lina Fowler</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+                 <section id="contact-bubbles">
+                     <div class="container">
+                         <div class="row">
+                             <div class="col-lg-1 bg">
+                                 <a href="mailto:lina.m.fowler@gmail.com">
+                                     <img class="bubbles-footer img-circle" src="img/envelopePink.png" alt="e-mail contact" width="100" /></a>
+                                 <div class="overlay">
+                                 <p>E-mail</p>
+                                 </div>
+                             </div>
+                             <div class="col-lg-1 bg">
+                                 <a href="https://www.linkedin.com/in/lina-fowler-2a62b1139/" target="_blank">
+                                     <img class="bubbles-footer img-circle" src="img/linkedinPink.png" alt="Linkined" width="100" /></a>
+                                 <div class="overlay">
+                                 <p>LinkedIn</p>
+                                 </div>
+                             </div>
+                             <div class="col-lg-1 bg">
+                                 <a href="https://www.instagram.com/lina.fowler.design/" target="_blank">
+                                     <img class="bubbles-footer img-circle " src="img/instaPink.png" alt="Instagram" width="100" /></a>
+                                 <div class="overlay">
+                                 <p>Instagram</p>
+                                 </div>
+                             </div>
+                             <div class="col-lg-1 bg">
+                                 <a href="LinaFowlerResume.pdf" target="_blank">
+                                     <img class="bubbles-footer img-circle" src="img/resume.png" alt="Resume" width="100" /></a>
+                                 <div class="overlay">
+                                 <p>Resume</p>
+                                 </div>
+                             </div>
+                             <div class="col-lg-1 bg">
+                                 <a href="https://www.pinterest.com/linafowler100/" target="_blank">
+                                     <img class="bubbles-footer img-circle" src="img/pin.png" alt="Home" width="100" /></a>
+                                 <div class="overlay">
+                                 <p>Pinterest</p>
+                                 </div>
+                             </div>
+                             <div class="col-lg-1 bg">
+                                 <a href="Default.aspx" target="_blank">
+                                     <img class="bubbles-footer img-circle" src="img/home.png" alt="Home" width="100" /></a>
+                                 <div class="overlay">
+                                 <p>Home</p>
+                                 </div>
+                             </div>
+                         
+                      </div>
+                         <p class="footer-copywrite">&copy; 2017 Developed & designed by Lina Fowler</p>
+                     </div>
+                 </section>
+     </section> 
         </div>
     </form>
-    <script src="https://code.jquery.com/jquery-1.6.2.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/javascript.js"></script>
+    <script src="https://use.fontawesome.com/b0f5612379.js"></script>
 </body>
 </html>
